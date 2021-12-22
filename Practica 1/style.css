@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+}
+
+#Titulo {
+    font-size: 10vh;
+    font-family: 'Lobster', cursive;
+    margin: 0px;
+    color: white;
+    animation: myAnim 2s ease-in 0s 1 normal forwards;
+    text-shadow: 20px 18px 15px #000000;
+}
+
+#ImagenDown{
+    vertical-align: middle;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.LaCotorrisa{
+    background-color: #111D2A;
+    padding-bottom: 1vh;
+    
+}
+
+
+.Creativo{
+    background-color: #6a1527;
+    padding-bottom: 1vh;
+}
+
+.Leyendas{
+    background-color: #3A1A41;
+    padding-bottom: 1vh;
+}
+
+#divTitulo{
+    background-image: url("https://images.unsplash.com/photo-1590602846989-e99596d2a6ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#Subtitulo{
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+p{
+    margin: 40px;
+    font-size: 40px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a{
+    font-size: 30px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.Leyendas #Subtitulo{
+    color: #602C6B;
+}
+
+.Leyendas p{
+    color: #AC4EC0;
+}
+
+.Leyendas a{
+    color: #D260EB;
+}
+
+.Leyendas a:hover{
+    color: #e94a35;
+}
+
+.Creativo #Subtitulo{
+    color: #dd3223;
+}
+
+.Creativo p{
+    color: #f4bf9d;
+}
+
+.Creativo a{
+    color: #c99b83;
+}
+
+.Creativo a:hover{
+    color: #35587F;
+}
+
+.LaCotorrisa #Subtitulo{
+    color: #35587F;
+}
+
+.LaCotorrisa p{
+    color: #5893D4;
+}
+
+.LaCotorrisa a{
+    color: #6AB0FE;
+}
+
+.LaCotorrisa a:hover{
+    color: #dd3223;
+}
+
+
+#Video{
+    margin: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+@keyframes myAnim {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateY(-45px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateY(-24px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateY(-12px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateY(-6px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateY(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87% {
+      animation-timing-function: ease-out;
+      transform: translateY(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
